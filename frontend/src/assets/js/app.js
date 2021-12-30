@@ -1,4 +1,4 @@
-import "babel-polyfill";
-import getUsers from "./users";
+import 'babel-polyfill';
+import initRouter from './router';
 
-getUsers();
+initRouter();
